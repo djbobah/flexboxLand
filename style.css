@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 h1,
@@ -17,8 +17,8 @@ p {
 .container {
   height: calc(100vh - 100px);
 
-  background-image: url("./img/1612166768_36-p-fon-krugi-fioletovie-49.jpg");
-  background-size: cover;
+  background-image: url("./img/cvcvc.jpg");
+  /* background-size: auto; */
   background-repeat: no-repeat;
   box-sizing: border-box;
   display: flex;
@@ -41,7 +41,7 @@ p {
   gap: 30px;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 0 150px;
+  /* padding: 0 150px; */
 }
 .card {
   background-color: white;
@@ -68,7 +68,7 @@ p {
 .card__title {
   color: #2cb0cc;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 24px;
 }
 .card__text {
   color: #808080;
@@ -103,20 +103,132 @@ footer {
   justify-content: center;
   padding: 25px;
 }
-/* -theme-sheet-width-xl: 1140px;
-    --theme-sheet-width-lg: 940px;
-    --theme-sheet-width-md: 720px;
-    --theme-sheet-width-sm: 540px;
-    --theme-sheet-width-xs: 340px; */
-/* 1199 */
-/* 991 */
-/* 767 */
-/* 575 */
+footer a {
+  color: #adcce9;
+}
+
 @media screen and (max-width: 575px) {
+  .title {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 16px;
+    margin: 0 10px;
+    text-align: center;
+  }
+  .container {
+    height: 100%;
+  }
+  .cards_container {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 290px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card__title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .card__text {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+  }
+  .card__button {
+    display: inline-block;
+    border-color: #2cb0cc;
+
+    border-width: 2px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 8px 20px;
+  }
+  .footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+  .subtitle {
+    margin: 0 20px;
+    text-align: center;
+  }
+  .container {
+    height: 100%;
+  }
+  .cards_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .card {
+    width: 530px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card__title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .card__text {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+  }
+  .card__button {
+    display: inline-block;
+    border-color: #2cb0cc;
+
+    border-width: 2px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 8px 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    height: 100%;
+  }
+  .cards_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .card {
+    width: 260px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card__title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .card__text {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+  }
+  .card__button {
+    display: inline-block;
+    border-color: #2cb0cc;
+
+    border-width: 2px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 8px 20px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .card {
