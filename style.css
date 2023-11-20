@@ -19,6 +19,7 @@ p {
 
   background-image: url("./img/cvcvc.jpg");
   background-size: cover;
+
   background-repeat: no-repeat;
   box-sizing: border-box;
   display: flex;
@@ -41,7 +42,6 @@ p {
   gap: 30px;
   margin-top: 50px;
   margin-bottom: 50px;
-  /* padding: 0 150px; */
 }
 .card {
   background-color: white;
